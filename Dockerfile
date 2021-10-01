@@ -5,6 +5,6 @@ LABEL maintainer="TychoDev <cloud.ops@tychodev.com>"
 RUN npm install -g aws-cdk
 RUN cdk --version
 
-USER 1001
+# USER 1001
 
 CMD ["echo", "This is a 'Purpose Built Image', It is not meant to be ran directly"]
