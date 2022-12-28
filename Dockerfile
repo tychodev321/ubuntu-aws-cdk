@@ -66,6 +66,6 @@ RUN echo "cdk version: $(cdk --version)" \
     && echo "git version: $(git --version)" \
     && microdnf repolist
 
-USER 1001
+# USER 1001
 
 CMD ["echo", "This is a 'Purpose Built Image', It is not meant to be ran directly"]
