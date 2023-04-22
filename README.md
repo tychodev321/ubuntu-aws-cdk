@@ -1,1 +1,1 @@
-# ubi-awscdk
+# ubuntu-awscdk
